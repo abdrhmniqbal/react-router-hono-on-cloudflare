@@ -6,11 +6,18 @@ Basic template to run [React Router](https://reactrouter.com) with [Hono](https:
 
 * Typesafe environment variables.
 * Serving static files on development mode.
+* [Flat routes](https://github.com/kiliman/remix-flat-routes) implementation.
 * Custom load context bindings examples.
 * Content Security Policy examples.
 * API route on Hono example.
 
 ## Getting Started
+
+You can quickly create a new React Router application from this templates using the create-react-router CLI.
+
+```bash
+npx create-react-router@latest --template abdrhmniqbal/react-router-hono-on-cloudflare
+```
 
 ### Installation
 
