@@ -1,0 +1,10 @@
+workers_dev = true
+name = "react-router-hono-on-cloudflare"
+compatibility_date = "2024-11-18"
+compatibility_flags = [ "nodejs_compat" ]
+main = "./build/server/index.js"
+assets = { directory = "./build/client/" }
+
+[vars]
+APP_MODE = "development"
+APP_NAME = "React Router Hono"
